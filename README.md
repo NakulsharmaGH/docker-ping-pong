@@ -4,7 +4,7 @@ A **Simple Pong Game** built using **HTML, CSS, and JavaScript**, containerized 
 
 ## 📸 Screenshot
 
-![Pong Game](https://github.com/atulkamble/pong-game/blob/main/pong-game.png)
+![Pong Game](https://github.com/NakulsharmaGH/docker-ping-pong/blob/main/ping-pong.png)
 
 ---
 
