@@ -21,8 +21,8 @@ A **Simple Pong Game** built using **HTML, CSS, and JavaScript**, containerized 
 ### 🔻 Clone the Repository
 
 ```bash
-git clone https://github.com/atulkamble/pong-game.git
-cd pong-game
+https://github.com/NakulsharmaGH/docker-ping-pong.git
+cd docker-ping-pong
 ````
 ## 📌 Clean Reinstall of Docker Compose on Amazon Linux / EC2
 
@@ -61,25 +61,25 @@ Notice — with V2 it’s `docker compose` (space) not `docker-compose` (hyphen)
 ### 📦 Build the Docker Image
 
 ```bash
-docker build -t atuljkamble/pong-game .
+docker build -t nakuldocker03/pong-game .
 ```
 
 ### 📤 Push the Docker Image (optional)
 
 ```bash
-docker push atuljkamble/pong-game
+docker push nakuldocker03/pong-game
 ```
 
 ### 📥 Pull the Docker Image
 
 ```bash
-docker pull atuljkamble/pong-game
+docker pull nakuldocker03/pong-game
 ```
 
 ### 🚀 Run the Docker Container
 
 ```bash
-docker run -d -p 80:80 atuljkamble/pong-game
+docker run -d -p 80:80 nakuldocker03/pong-game
 ```
 
 ---
@@ -108,16 +108,16 @@ start http://localhost/
 
 ```bash
 # Build and start the containers
-docker-compose up --build
+docker compose up --build
 
 # Build and start in detached mode
-sudo docker-compose up --build -d
+sudo docker compose up --build -d
 
 # Stop the containers
-docker-compose stop
+docker compose stop
 
 # Stop and remove containers, networks, and volumes
-docker-compose down
+docker compose down
 ```
 ---
 
